@@ -1,11 +1,150 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Page Hello World</title>
-    </head>
-    <body>
-        <h1>Hello world</h1>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathis's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Google Fonts CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#" style="color: orangered;">Mathis BERTRAND</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#presentation">Presentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projets">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hobbies">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Presentation Section -->
+    <section id="presentation" class="d-flex align-items-center">
+        <div class="container text-center text-md-left">
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="display-4">Welcome to my Portfolio !</h1>
+                    <p class="lead">I'm Mathis BERTRAND, a passionate second-year student pursuing a degree in Computer Science Engineering at EPITA in Lyon, France. Currently, I'm on an exciting exchange program in the vibrant tech hub of Japan, studying at SIT University. My journey in the world of technology has been exhilarating, filled with hands-on experiences, complex problem-solving, and a relentless drive for innovation.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/pic.png" class="rounded-circle img-fluid" alt="Mathis person">
+                </div>
+                
+            </div>
+            <br>
+        </div>
+    </section>
+
+    <!-- Projets Section -->
+    <section id="projets" class="d-flex align-items-center bg-light">
+        <div class="container">
+            <br>
+            <h2 class="text-center">My Projects</h2>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <a href="https://scraftgame.github.io/" target="_blank">
+                            <img src="images/scraft.png" class="card-img-top project-img" alt="Project 1, image of my game Scraft">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Scraft</h5>
+                            <p class="card-text">This project is an immersive multiplayer survival game where your objective is to reveal the mysteries of a remote island and safeguard the core of an enigmatic meteorite.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="images/sudoku.png" class="card-img-top" alt="Projet 2, sudoku solver">
+                        <div class="card-body">
+                            <h5 class="card-title">Sudoku Solver</h5>
+                            <p class="card-text">This OCR project is a sudoku-solving program that processes an image of an unsolved sudoku grid as input, detects the grid, and recognizes the characters to solve the puzzle.</p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>          
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="d-flex align-items-center">
+        <div class="container text-center text-md-left">
+            <br>
+            <h2 class="text-center">My Hobbies</h2>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/football.jpg" class="rounded-circle img-fluid" alt="Mathis playing football">
+                </div>
+                <div class="col-md-6">   
+                    <br>               
+                    <h3>Football</h3>
+                    <p>Football has been a significant part of my life since childhood. Over eleven years, it shaped me, teaching teamwork, discipline, and determination. The pitch wasn't just a field; it was my sanctuary, where I felt alive, where I truly belonged. These years weren't just about physical activity; they were transformative, defining much of who I am today.</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">  
+                    <br>              
+                    <h3>Bouldering</h3>
+                    <p>Bouldering, a solo endeavor I began just a year ago, offers a stark contrast to my team-oriented football background. Despite its individual nature, I've found immense fulfillment in the challenges it presents. Each climb is a personal triumph, pushing me to new heights both physically and mentally.</p>
+                    <br>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/bouldering.jpg" class="rounded-circle img-fluid" alt="Mathis doing bouldering">
+                </div>                   
+            </div> 
+            <br> 
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact me</h2>
+            <div class="text-center">
+                <a href="https://fr.linkedin.com/in/mathis-bertrand-7b762528b" class="mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/NeRio06" class="mx-2"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white text-center">
+        <p>&copy; 2024 Mathis BERTRAND. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>

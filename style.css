@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(font/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lora;
+    src: url(font/Lora-Regular.ttf);
+}
+
+body {
+    font-family: Lora;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: orangered;
+    font-size:xx-large;
+    font-family: QUicksand;
+}
+
+#presentation, #projets, #hobbies {
+    min-height: 100vh;
+    padding: 60px 0;
+}
+
+#presentation {
+    background: #e9eaeb;
+    display: flex;
+    align-items: center;
+}
+
+#projets {
+    background: #e9ecef;
+    display: flex;
+    align-items: center;
+}
+
+#hobbies{
+    background: #e9ecef;
+    display: flex;
+    align-items: center;
+}
+
+#contact {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+footer {
+    background: #343a40;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.fa-linkedin, .fa-github {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.fa-linkedin:hover {
+    color: #0077b5;
+}
+
+.fa-github:hover {
+    color: #cc0909;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-img {
+    transition: filter 0.3s ease;
+}
+
+.project-img:hover {
+    filter: brightness(50%);
+}
